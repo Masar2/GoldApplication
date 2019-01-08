@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/goldDark"
+    tools:context=".login.SignInActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_layout_email" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_layout_password">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnSingIn"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/silver"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

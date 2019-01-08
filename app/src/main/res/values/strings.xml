@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GoldApplicatie</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="btnSingIn">Sign In</string>
+    <string name="btnSignInHere">Sign In Here</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="existingUser">Al ready have A account</string>
+    <string name="userLogin">User Login</string>
+    <string name="newUserSignUp">New User Sign Up</string>
+    <string name="login">Log in </string>
+    <string name="title_activity_home1">Home1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_new_product">AddNewProduct</string>
+
+
+</resources>

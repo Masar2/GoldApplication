@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "236902644802",
+    "firebase_url": "https://myapplication-a5280.firebaseio.com",
+    "project_id": "myapplication-a5280",
+    "storage_bucket": "myapplication-a5280.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236902644802:android:45dc5f4d430c5b0f",
+        "android_client_info": {
+          "package_name": "com.robpercival.demoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236902644802-ar5tvttnieg638kh0apect5uk21gtt2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.robpercival.demoapp",
+            "certificate_hash": "d11c6603f0a7a8b1b9bc89f9c4cdbf3f2361403a"
+          }
+        },
+        {
+          "client_id": "236902644802-kafk8jqm6t1vh7pbh2fv4n81hmnddnsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0oSLTISJOs22-Gl6nCjU8Jr_a2iYVXWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236902644802-kafk8jqm6t1vh7pbh2fv4n81hmnddnsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
